@@ -1,0 +1,24 @@
+﻿<Window x:Class="nspNECWireless.Views.wdNecCommand"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NEC WIRELESS COMMAND TESTING" Height="250" Width="800">
+    <Grid>
+        <TextBlock FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0">COMMAND</TextBlock>
+        <TextBox x:Name="tbCommand" Background="LightGreen" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110,20,0,0"></TextBox>
+
+        <TextBlock FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,60,0,0"> ACTUAL SEND</TextBlock>
+        <TextBox x:Name="tbActualSend" IsEnabled="False" Background="LightGreen" Foreground="Blue" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110,60,0,0"></TextBox>
+
+        <TextBlock FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,100,0,0">RECEIVE</TextBlock>
+        <TextBox x:Name="tbReceive" Background="LightGreen" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110,100,0,0"></TextBox>
+
+        <Button x:Name="btnSend" FontWeight="Bold" Background="LightCoral" Width="110" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="648,20,0,0">SEND</Button>
+
+        <TextBlock FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,145,0,0">SUMMARY</TextBlock>
+        <TextBox x:Name="tbSummaryResult" Background="LightGreen" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110,145,0,0"></TextBox>
+
+        <Button x:Name="btnContinueSend" FontWeight="Bold" Background="LightCoral" Width="110" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="648,145,0,0">Continuous Send</Button>
+
+
+    </Grid>
+</Window>

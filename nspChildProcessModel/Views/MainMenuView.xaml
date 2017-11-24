@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="nspChildProcessModel.MainMenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             >
+    <Grid>
+        <Menu x:Name="MainMenu" Grid.Row="0" Height="20" Background="LightGreen" VerticalAlignment="Top" RenderTransformOrigin="0.566,0.35" Margin="0,0,0,0">
+            <MenuItem Header="File">
+                <MenuItem Header="Open"></MenuItem>
+                <MenuItem Header="Exit"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Edit">
+                <MenuItem Header="Edit System Setting" Click="EditSystemSetting"></MenuItem>
+                <MenuItem Header="Edit User Setting" Click="EditUserSetting"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="View">
+                <MenuItem Header="Program Folder" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="View Data" Click="ViewData"></MenuItem>
+                <MenuItem Header="Origin Step List" Click="ViewOriginStepList"></MenuItem>
+                <MenuItem Header="Checking Program List" Click="ViewCheckingProgramList"></MenuItem>
+                <MenuItem Header="Master Program List" Click="ViewMasterProgramList"></MenuItem>
+            </MenuItem>
+            
+            <MenuItem Header="Option">
+                <MenuItem Header="Reset Counter" Command="{Binding ICommandResetCounter}"></MenuItem>
+                <MenuItem Header="Reset Program" Click="ResetProgram"></MenuItem>
+                <MenuItem Header="Skip Check Mode">
+                    <MenuItem Header="Select To Skip" Command="{Binding ICommandSkipCheckItem}"></MenuItem>
+                    <MenuItem Header="Clear All Skip" Command="{Binding ICommandClearAllSkip}"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Change Step List" Command="{Binding ICommandSelectStepList}"></MenuItem>
+                <MenuItem Header="Change Program List" Command="{Binding ICommandSelectProgramList}"></MenuItem>
+                <MenuItem Header="Change Master Program List" Command="{Binding ICommandSelectMasterProgramList}"></MenuItem>
+                <MenuItem Header="Export Option View Table" Command="{Binding ICommandExportOptionViewTable}"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Tools">
+                <MenuItem Header="Master Sequence Tester" Command="{Binding ICommandMasterSequenceTester}"></MenuItem>
+                <MenuItem Header="Child Sequence Tester" Command="{Binding ICommandChildSequenceTester}"></MenuItem>
+                <MenuItem Header="System Command Mode" Command="{Binding ICommandSystemCommandMode}"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Mode" ItemsSource="{Binding lststrSelectCheckingMode}" Command="{Binding ICommandSelectMode}">
+                <MenuItem.ItemContainerStyle>
+                    <Style TargetType="{x:Type MenuItem}">
+                        <Setter Property= "Command" Value= "{Binding DataContext.RelayCommandSelectMode, RelativeSource={RelativeSource AncestorType={x:Type MenuItem}}}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}" />
+                    </Style>
+                </MenuItem.ItemContainerStyle>
+
+            </MenuItem>
+
+            <MenuItem Header="User Task" ItemsSource="{Binding obsMenuUserUtilities}">
+                
+            </MenuItem>
+
+            <MenuItem Header="Help">
+                <MenuItem Header="About" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Version Info" Click="ViewVersionInfo"></MenuItem>
+                <MenuItem Header="Extension Info" Click="ViewUserFunctionInfo"></MenuItem>
+                <MenuItem Header="Special Control Info" Click="ViewUserExpressionInfo"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="nspMasterProcessModel.Views.wdMasterSequenceTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Master Sequence Tester V0.01"
+        Height="350" Width="610">
+    <Grid>
+        <Label Foreground="Blue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0">1. Select step want to change result</Label>
+        <ComboBox x:Name="cbMasterListStep" ItemsSource="{Binding GetMasterList}" SelectedItem="{Binding TheSelectedItem}" FontWeight="Bold" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,40,0,0"></ComboBox>
+        <TextBox x:Name="tbSelectStepName" Text="{Binding strSelectedStepName}" Height="40" Width="450" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="130,40,0,0"></TextBox>
+        <Label Foreground="Blue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,85,0,0">2. Now input new value and Type of new value</Label>
+        <Label Foreground="Black" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,115,0,0">New Value =</Label>
+        <TextBox x:Name="tbNewValue" FontWeight="Bold" Text="{Binding strNewValue, Mode=TwoWay}" Height="30" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="130,115,0,0"></TextBox>
+        <Label Foreground="Black" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="350,115,0,0">Type =</Label>
+        <ComboBox x:Name="cbValueType" Height="30" Width="180" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="400,115,0,0"></ComboBox>
+        <Label Foreground="Blue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,155,0,0">3. Click Apply button to set new value</Label>
+        <Button x:Name="btnApply" Command="{Binding ICommandApply}" Height="40" Width="120" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,185,0,0">Apply</Button>
+        <Button x:Name="btnReset" Command="{Binding ICommandReset}" Height="40" Width="120" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="155,186,0,0">Reset</Button>
+        <Button x:Name="btnResetAll" Command="{Binding ICommandResetAll}" Height="40" Width="120" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="310,185,0,0">Reset All</Button>
+        <Button x:Name="btnCancel" Height="40" Width="120" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="460,185,0,0">Cancel</Button>
+        <Label Foreground="Blue" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,235,0,0">4. Changing Result:</Label>
+        <TextBox x:Name="tbMessage" Height="30" Width="570" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,265,0,0"></TextBox>
+    </Grid>
+</Window>

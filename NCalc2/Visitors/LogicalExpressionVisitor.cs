@@ -1,0 +1,19 @@
+using NCalc2.Expressions;
+
+namespace NCalc2.Visitors
+{
+    public abstract class LogicalExpressionVisitor
+    {
+        public abstract void Visit(TernaryExpression expression);
+
+        public abstract void Visit(BinaryExpression expression);
+
+        public abstract void Visit(UnaryExpression expression);
+
+        public abstract void Visit(ValueExpression expression);
+
+        public abstract void Visit(FunctionExpression function);
+
+        public abstract void Visit(IdentifierExpression function);
+    }
+}

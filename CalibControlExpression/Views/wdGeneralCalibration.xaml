@@ -1,0 +1,23 @@
+﻿<Window x:Class="CalibControlExpression.Views.wdGeneralCalibration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="General Calibration Control Ver01" Height="427" Width="808">
+    <Grid Background="Lavender" Margin="0,0,-8,0">
+        <Label x:Name="lblWarning1" Content="{Binding calibControlProcess.calibBinding.warning}" Foreground="Red" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,10,0,0" ></Label>
+        <Label x:Name="lblUserGuide1" Content="{Binding calibControlProcess.calibBinding.userGuide}" Foreground="Blue" FontWeight="Bold" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="29,68,0,0" ></Label>
+        <TextBox x:Name="tbValueSetting1" Text="{Binding calibControlProcess.calibBinding.valueSetting}" Height="40" Width="460" Foreground="Black" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="158,144,0,0"></TextBox>
+        <TextBox x:Name="tbActualValue1" Text="{Binding calibControlProcess.calibBinding.actualValue}" Height="40" Width="460" Foreground="Black" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="158,205,0,0"></TextBox>
+        <TextBox x:Name="tbMessage1" Text="{Binding calibControlProcess.calibBinding.message}" Height="40" Width="460" Foreground="Black" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="158,262,0,0"></TextBox>
+        <Button x:Name="btnSet1" Command="{Binding btnSetCommand}" IsEnabled="{Binding btnSetEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="158,316,0,0">SET</Button>
+        <Button x:Name="btnBack1" Command="{Binding btnBackCommand}" IsEnabled="{Binding btnBackEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="399,316,0,0">BACK</Button>
+        <Button x:Name="btnNext1" Command="{Binding btnNextCommand}" IsEnabled="{Binding btnNextEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="281,316,0,0">NEXT</Button>
+        <Button x:Name="btnOK1" Command="{Binding btnOkCommand}" IsEnabled="{Binding btnOkEnable}"  Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="518,316,0,0">OK</Button>
+        <Button x:Name="btnValObserver1" Command="{Binding btnValObserverCommand}" IsEnabled="{Binding btnValObserverEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="656,262,0,0">VAL OBSERVER</Button>
+        <Button x:Name="btnUserControl1" Command="{Binding btnUserControlCommand}" IsEnabled="{Binding btnUserControlEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="656,316,0,0">USER CONTROL</Button>
+        <Button x:Name="btnCalibAgain1" Command="{Binding btnCalibAgainCommand}" IsEnabled="{Binding btnCalibAgainEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="656,203,0,0" RenderTransformOrigin="0.49,-0.227">CALIB AGAIN</Button>
+        <Label Content="Value Setting" FontSize="16" HorizontalAlignment="Left" Height="40" Margin="20,144,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label Content="Reading Value" FontSize="16" HorizontalAlignment="Left" Height="40" Margin="20,205,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label Content="Message" FontSize="16" HorizontalAlignment="Left" Height="40" Margin="20,262,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="btnConfirm" Command="{Binding btnConfirmCommand}" IsEnabled="{Binding btnConfirmEnable}" Height="40" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="656,144,0,0" RenderTransformOrigin="0.49,-0.227" Content="CONFIRM"/>
+    </Grid>
+</Window>

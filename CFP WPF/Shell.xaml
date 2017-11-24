@@ -1,0 +1,162 @@
+﻿<Window x:Class="CFP_WPF.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism ="http://www.codeplex.com/prism"
+        Title="{Binding GetWindowTitle}"  mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="738.537" Width="1194.084" Icon="CFPicon.ico"
+        Loaded="Window_Loaded" Closed="Window_Closed">
+
+    <!--For setting background of Main Window-->
+    <Window.Background>
+        <!--<ImageBrush ImageSource="Resources/background.png" />-->
+        <ImageBrush ImageSource="Resources/cfpTheme.png" />
+    </Window.Background>
+
+    <Window.Resources>
+
+    </Window.Resources>
+    
+
+
+    <Grid x:Name="GridAll" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Column="0" LastChildFill="True">
+            <ItemsControl prism:RegionManager.RegionName="FlashingRegion" Height="20" Width="105" Background="LightBlue" DockPanel.Dock="Right"></ItemsControl>
+            <ContentControl prism:RegionManager.RegionName="MenuRegion" Height="20" Background="LightCoral" DockPanel.Dock="Left">
+            </ContentControl>
+        </DockPanel>
+        
+        <Grid x:Name="GridMainContent" Grid.Row="1" RenderTransformOrigin="0.608,0.504">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="270"/>
+            </Grid.ColumnDefinitions>
+
+            <DockPanel Grid.Column="0" LastChildFill="True">
+                
+                <ContentControl prism:RegionManager.RegionName="HeaderRegion" Height="150" Background="LightCoral" DockPanel.Dock="Top" Margin="10,5,10,10">
+                </ContentControl>
+                <TabControl x:Name="MainTabControl" prism:RegionManager.RegionName="MainRegion" Background="Lavender" DockPanel.Dock="Top" Margin="10,5,10,10" SelectedIndex="{Binding TabControlSelectedIndex}">
+                    <TabItem x:Name="MainInfoTabItem" Header="Main Info" FontWeight="Bold" Foreground="Blue">
+                        <ContentControl prism:RegionManager.RegionName="MainInfoRegion" Margin="0,0,0,0">
+                            <ContentControl.Background>
+                                <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                            </ContentControl.Background>
+                        </ContentControl>
+                    </TabItem>
+                    <TabItem Header="Master View" FontWeight="Bold" Foreground="Blue">
+                        <!--<ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                            <ContentControl prism:RegionManager.RegionName="MasterViewRegion" Margin="0,0,0,0">
+                                <ContentControl.Background>
+                                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                                </ContentControl.Background>
+                            </ContentControl>
+                        </ScrollViewer>-->
+                        <ContentControl prism:RegionManager.RegionName="MasterViewRegion" Margin="0,0,0,0">
+                            <ContentControl.Background>
+                                <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                            </ContentControl.Background>
+                        </ContentControl>
+
+                    </TabItem>
+                    <TabItem Header="Process View" FontWeight="Bold" Foreground="Blue">
+                        <!--<ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                            <ContentControl prism:RegionManager.RegionName="ProcessViewRegion" Margin="0,0,0,0" >
+                                <ContentControl.Background>
+                                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                                </ContentControl.Background>
+                            </ContentControl>
+                        </ScrollViewer>-->
+
+                        <ContentControl prism:RegionManager.RegionName="ProcessViewRegion" Margin="0,0,0,0" >
+                            <ContentControl.Background>
+                                <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                            </ContentControl.Background>
+                        </ContentControl>
+
+                    </TabItem>
+
+                    <TabItem x:Name="StepListViewTabItem" Header="Step List View" FontWeight="Bold" Foreground="Blue">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                            <ContentControl prism:RegionManager.RegionName="StepListViewRegion" Margin="0,0,0,0">
+                                <ContentControl.Background>
+                                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                                </ContentControl.Background>
+                            </ContentControl>
+                        </ScrollViewer>
+                    </TabItem>
+
+                    <TabItem x:Name="OptionViewTabItem" Header="Option View" FontWeight="Bold" Foreground="Blue">
+                        <!--<ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                            <ContentControl prism:RegionManager.RegionName="OptionViewRegion" Margin="0,0,0,0">
+                                <ContentControl.Background>
+                                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                                </ContentControl.Background>
+                            </ContentControl>
+                        </ScrollViewer>-->
+
+                        <ContentControl prism:RegionManager.RegionName="OptionViewRegion" Margin="0,0,0,0">
+                            <ContentControl.Background>
+                                <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                            </ContentControl.Background>
+                        </ContentControl>
+
+                    </TabItem>
+
+                    <TabItem x:Name="UserViewTabItem" Header="User View" FontWeight="Bold" Foreground="Blue">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                            <ItemsControl prism:RegionManager.RegionName="UserViewRegion" Margin="0,0,0,0">
+                                <ItemsControl.Background>
+                                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                                </ItemsControl.Background>
+                            </ItemsControl>
+                        </ScrollViewer>
+                        <!--<ItemsControl prism:RegionManager.RegionName="UserViewRegion" Margin="0,0,0,0">
+                            <ItemsControl.Background>
+                                <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                            </ItemsControl.Background>
+                        </ItemsControl>-->
+                    </TabItem>
+                </TabControl>
+
+            </DockPanel>
+            
+            <GridSplitter HorizontalAlignment="Right" 
+                  VerticalAlignment="Stretch" 
+                  Grid.Column="1" ResizeBehavior="PreviousAndNext"
+                  Width="0.5" />
+
+            <DockPanel Grid.Column="2" LastChildFill="True">
+
+                <ContentControl prism:RegionManager.RegionName="TopBarRegion" Height="150" DockPanel.Dock="Top" Margin="10,5,10,10">
+                    <ContentControl.Background>
+                        <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                    </ContentControl.Background>
+                </ContentControl>
+                <ContentControl DockPanel.Dock="Top" Height="22"></ContentControl>
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                        HorizontalScrollBarVisibility="Auto">
+                    <ItemsControl prism:RegionManager.RegionName="SideBarRegion" DockPanel.Dock="Bottom" Margin="10,5,10,10">
+                        <ItemsControl.Background>
+                            <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                        </ItemsControl.Background>
+                    </ItemsControl>
+                </ScrollViewer>
+
+            </DockPanel>
+
+        </Grid>
+        
+    </Grid>
+
+</Window>

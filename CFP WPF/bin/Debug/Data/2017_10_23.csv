@@ -1,0 +1,54 @@
+
+Started Time:,10/23/2017 12:08:20 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 12:07:57 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/23/2017 12:10:31 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 12:07:57 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/23/2017 12:11:43 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 12:07:57 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/23/2017 12:12:45 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 12:07:57 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/23/2017 2:46:55 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 2:46:28 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/23/2017 2:48:20 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/23/2017 2:46:28 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,

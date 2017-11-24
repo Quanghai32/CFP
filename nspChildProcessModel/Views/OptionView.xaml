@@ -1,0 +1,36 @@
+﻿<UserControl x:Name="userControl" x:Class="nspChildProcessModel.Views.OptionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             ScrollViewer.CanContentScroll="True" 
+             ScrollViewer.VerticalScrollBarVisibility="Auto"
+             ScrollViewer.HorizontalScrollBarVisibility="Auto"
+             VerticalAlignment="Stretch" 
+             HorizontalAlignment="Stretch">
+
+    <Grid x:Name="grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/cfpTheme.png" />
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="stackPanel" Grid.Row="0">
+            <Label x:Name="lblOptionViewHeader" Content="{Binding clsBindingView.strOptionViewHeader}" Background="LightGreen" Foreground="Blue" FontWeight="Bold" FontSize="20"></Label>
+            <ComboBox x:Name="cbOptionView" ItemsSource="{Binding clsBindingView.lststrOptionViewCombo}" SelectedItem="{Binding ComboSelectOptionView}" Background="LightCoral"></ComboBox>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="dataGridOptionView" AutoGenerateColumns="True" CanUserAddRows="False" 
+                   MaxWidth="{Binding ActualWidth, ElementName=stackPanel, Mode=OneWay}"
+                   Background="LightYellow" AlternatingRowBackground="LightGreen" AlternationCount="2" Sorting="dataGridOptionView_Sorting"
+                   ItemsSource="{Binding clsBindingView.dataTableOptionView}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        </DataGrid>
+
+    </Grid>
+
+</UserControl>

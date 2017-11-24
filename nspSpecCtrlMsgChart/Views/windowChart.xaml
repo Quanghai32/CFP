@@ -1,0 +1,116 @@
+﻿<Window x:Class="nspGeneralChart.windowChart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding strWindowChartTitle}"
+        Loaded="Window_Loaded"
+        SizeChanged="Window_SizeChanged"
+        Closing="Window_Closing"
+        Closed="Window_Closed">
+    <Grid>
+
+        <DockPanel LastChildFill="True">
+            <ItemsControl x:Name="ItemsControlChartHeader" DockPanel.Dock="Top" Background="LightBlue" Panel.ZIndex="100">
+                <Menu x:Name="MainMenu" Grid.Row="0" Height="20" Background="LightBlue" VerticalAlignment="Top" RenderTransformOrigin="0.566,0.35" Margin="0,0,0,0">
+                    <MenuItem Header="File">
+                        <MenuItem Header="Open"></MenuItem>
+                        <MenuItem Header="Exit"></MenuItem>
+                    </MenuItem>
+                </Menu>
+            </ItemsControl>
+
+            <!--<ItemsControl x:Name="ItemsControlChartFooter" DockPanel.Dock="Bottom"  Background="LightBlue" Height="50" Panel.ZIndex="99">
+                <TextBlock>This is Chart Footer area!</TextBlock>
+            </ItemsControl>-->
+
+            <!--<ItemsControl x:Name="ItemsControlLeftNav" DockPanel.Dock="Left"  Background="LightCyan" Width="200" Panel.ZIndex="98">
+                <TextBlock Background="LightGreen" Foreground="Blue" FontWeight="Bold">User Information</TextBlock>
+            </ItemsControl>-->
+
+            <DockPanel DockPanel.Dock="Left"  Background="LightCyan" Width="200" Panel.ZIndex="98" LastChildFill="True">
+                
+                <!--<TextBlock DockPanel.Dock ="Top"  Background="LightGreen" Foreground="Blue" FontWeight="Bold">USER INFO</TextBlock>-->
+                
+                <FlowDocumentScrollViewer x:Name="FlowDocScroll" DockPanel.Dock="Bottom">
+                    <FlowDocument x:Name="FlowDoc" FontFamily="Times New Roman" Background="White">
+                        <Paragraph>
+                            <TextBlock x:Name="UserInfoTextBlock" TextWrapping ="Wrap"></TextBlock>
+                        </Paragraph>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+                
+            </DockPanel>
+            
+
+            <ItemsControl x:Name="ItemsControlRightNav" DockPanel.Dock="Right" Width="200"  Background="LightGoldenrodYellow" Panel.ZIndex="97">
+                <TextBlock Foreground="Blue" FontWeight="Bold" FontStyle="Italic" Background="LightGreen">Chart Control Panel</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnAutoSet" Width="100" HorizontalAlignment="Left" Click="btnAutoSet_Click" >Auto Set</Button>
+                    <Button x:Name="btnRunStop" Width="100" HorizontalAlignment="Left" Click ="btnRunStop_Click">Run/Stop</Button>
+                </DockPanel>
+                
+                <TextBlock Foreground="Blue" FontWeight="Bold" FontStyle="Italic" Background="LightGreen">Zoom Control</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnZoomXYMinus" Width="100" HorizontalAlignment="Left" Click ="btnZoomXYMinus_Click" >ZoomXY -</Button>
+                    <Button x:Name="btnZoomXYPlus" Width="100" HorizontalAlignment="Left" Click = "btnZoomXYPlus_Click">ZoomXY +</Button>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnZoomXMinus" Width="100" HorizontalAlignment="Left" Click= "btnZoomXMinus_Click" >ZoomX -</Button>
+                    <Button x:Name="btnZoomXPlus" Width="100" HorizontalAlignment="Left" Click = "btnZoomXPlus_Click">ZoomX +</Button>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnZoomYMinus" Width="100" HorizontalAlignment="Left" Click= "btnZoomYMinus_Click" >ZoomY -</Button>
+                    <Button x:Name="btnZoomYPlus" Width="100" HorizontalAlignment="Left" Click = "btnZoomYPlus_Click">ZoomY +</Button>
+                </DockPanel>
+
+                <TextBlock Foreground="Blue" FontWeight="Bold" FontStyle="Italic" Background="LightGreen">Pan Control</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnPanXY" Width="66.6" HorizontalAlignment="Left" Click="btnPanXY_Click" >Pan XY</Button>
+                    <Button x:Name="btnPanX" Width="66.6" HorizontalAlignment="Left" Click ="btnPanX_Click">Pan X</Button>
+                    <Button x:Name="btnPanY" Width="66.7" HorizontalAlignment="Left" Click ="btnPanY_Click">Pan Y</Button>
+                </DockPanel>
+
+                <TextBlock Foreground="Blue" FontWeight="Bold" FontStyle="Italic" Background="LightGreen">Manual Setting</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Background="LightBlue">Range X =</TextBlock>
+                    <TextBox x:Name="tbLowX" Width="70" Background="LightBlue"></TextBox>
+                    <TextBlock FontWeight="Bold"> ~ </TextBlock>
+                    <TextBox x:Name="tbHiX" Background="LightBlue"></TextBox>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Background="Lavender">Range Y =</TextBlock>
+                    <TextBox x:Name="tbLowY" Width="70" Background="Lavender"></TextBox>
+                    <TextBlock FontWeight="Bold"> ~</TextBlock>
+                    <TextBox x:Name="tbHiY" Background="Lavender"></TextBox>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Background="LightBlue">Divide X =</TextBlock>
+                    <TextBox x:Name="tbDivX" Width="70" Background="LightBlue"></TextBox>
+                    <TextBlock>Y</TextBlock>
+                    <TextBox x:Name="tbDivY" Background="LightBlue"></TextBox>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <Button x:Name="btnApplySetting" Click="btnApplySetting_Click">Apply Setting</Button>
+                </DockPanel>
+
+                <TextBlock Foreground="Blue" FontWeight="Bold" FontStyle="Italic" Background="LightGreen">Other Info</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Background="LightBlue">Mouse XY</TextBlock>
+                    <TextBox x:Name="tbMousePos"  Background="LightBlue"></TextBox>
+                </DockPanel>
+
+            </ItemsControl>
+
+            <!--<Slider Minimum=".1" Maximum="2" Orientation="Vertical"
+                Value="{Binding ElementName=MyCanvas, Path=Scale}"/>-->
+
+            <!--<ZoomableCanvas x:Name="MyCanvas" DockPanel.Dock="Top" Background="White" Panel.ZIndex="96">
+                
+            </ZoomableCanvas>-->
+
+            <Canvas x:Name="MyCanvas" DockPanel.Dock="Top" Background="White" Panel.ZIndex="96">
+
+            </Canvas>
+
+        </DockPanel>
+    </Grid>
+</Window>

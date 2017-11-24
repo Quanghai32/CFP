@@ -1,0 +1,213 @@
+
+Started Time:,10/18/2017 3:18:43 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 3:18:09 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,10,100,2,20,21,3,4,40,8,2454,245,2451,2452,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(3-1-0-0),(4-1-0-0),(4-1-0-0),(4-1-0-1),(4-1-0-0),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New PM Mode Control,Test New PM Mode Control - Show Me,Test New PM Mode Control - Set Message,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,TEST 8,Test New PM Mode Control - Set Check Result,Test New PM Mode Control - Hide Me,Test New PM Mode Control - Delay,Test New PM Mode Control - Update Timing ,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 3:19:33 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 3:18:09 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 3:55:57 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 3:54:59 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:11:55 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:10:41 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:14:33 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:13:48 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:17:02 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:16:14 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:29:05 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:28:22 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:29:37 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:28:22 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:45:16 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:45:41 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:46:19 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:49:47 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:51:27 PM
+D37 Demo New StepList ,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,1,2,20,21,3,4,40,400,401,402,50,5,6,7,60,70,8,245,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(2-1-0-0),(100-1-0-1),(100-1-0-1),(100-1-0-1),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-0),(3-1-0-1),(3-1-0-0),(3-1-0-1),(4-1-0-1),(50-1-0-0),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->0 V),(0->1 D),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 Any),(0->0 H),(0->0 H),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test String Formular,Test Numeric Formular,Test Boolean Formular,Test Error,Startup Polling,After Start Function,After Start Function 2,Test Background 1,Test Background 2,Test Background 3,[X],[X],SetVar('X';12),[X],DelVar('X'),[X],TEST 8,TEST 245,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 4:56:05 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 5:04:21 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 5:05:59 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 5:06:43 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+
+Started Time:,10/18/2017 5:11:24 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+PDE18\cvn,127.0.0.1,,Process1,,,10/18/2017 5:12:06 PM,4.91,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item1,,,10/18/2017 5:12:06 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process2,,,10/18/2017 5:12:06 PM,4.88,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item2,,,10/18/2017 5:12:06 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process3,,,10/18/2017 5:12:06 PM,4.81,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item3,,,10/18/2017 5:12:06 PM,,PASS,
+
+Started Time:,10/18/2017 5:39:00 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+PDE18\cvn,127.0.0.1,,Process1,,,10/18/2017 5:39:12 PM,0.22,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,CALL() Error: Object of type 'System.Collections.Generic.List`1[System.Object]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.,"Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item1,,,10/18/2017 5:39:12 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process2,,,10/18/2017 5:39:12 PM,0.23,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,CALL() Error: Object of type 'System.Collections.Generic.List`1[System.Object]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.,"Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item2,,,10/18/2017 5:39:12 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process3,,,10/18/2017 5:39:12 PM,0.14,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,CALL() Error: Object of type 'System.Collections.Generic.List`1[System.Object]' cannot be converted to type 'System.Collections.Generic.List`1[System.String]'.,"Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item3,,,10/18/2017 5:39:12 PM,,PASS,
+
+Started Time:,10/18/2017 5:50:16 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+PDE18\cvn,127.0.0.1,,Process1,,,10/18/2017 5:50:37 PM,1.33,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item1,,,10/18/2017 5:50:37 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process2,,,10/18/2017 5:50:37 PM,1.31,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item2,,,10/18/2017 5:50:37 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process3,,,10/18/2017 5:50:37 PM,1.09,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"Error: model name e28 not exist!","Error: model name e28 not exist!",0,0,,
+PDE18\cvn,127.0.0.1,,Item3,,,10/18/2017 5:50:37 PM,,PASS,
+
+Started Time:,10/18/2017 6:00:30 PM
+Web API Access Demo,1.02,9/6/2014
+Program Version: ,1.000,10/18/2017 4:43:06 PM
+Run Mode: Parallel,Checking Mode: NormalMode,Group Mode: False,
+,,,,,,,,,,,111,1,2,20,21,3,4,8,11,2451,246,
+,,,,,,,,,,,(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(0-1-0-0),(1-1-0-0),(2-1-0-0),(3-1-0-0),(3-1-0-0),(4-1-0-1),(50-0-0-3),
+,,,,,,,,,,,(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(0->0 ANY),(1->1 V),(0->0 V),(0->0 Any),(0->0 Any),(0->0 Any),(0->10 H),
+PC Name,IP Add,Mac Add,Item No,QR Code,USB serial,Time,Tact time (s),Result,STEP FAIL,FAIL DATA,Test New LiteDb database,Test New Acess Web API Class,Test Acess Web API Class - Check Website Connect,Test Acess Web API Class - Get Access Token,Test Acess Web API Class - New Backup database,Startup Polling,After Start Function,TEST GET() Method,Test Acess Web API Class - Reading again,Delay,TEST 246,DummyHead Serial,
+PDE18\cvn,127.0.0.1,,Process1,,,10/18/2017 6:00:40 PM,0.3,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"0.102","0.102",0,0,,
+PDE18\cvn,127.0.0.1,,Item1,,,10/18/2017 6:00:40 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process2,,,10/18/2017 6:00:40 PM,0.25,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"0.102","0.102",0,0,,
+PDE18\cvn,127.0.0.1,,Item2,,,10/18/2017 6:00:40 PM,,PASS,
+PDE18\cvn,127.0.0.1,,Process3,,,10/18/2017 6:00:40 PM,0.33,PASS,,,LiteDBDatabase.LiteDBHandle,AccessSecuredWebApi.AccessWebApi,True,True,0,,0,"0.102","0.102",0,0,,
+PDE18\cvn,127.0.0.1,,Item3,,,10/18/2017 6:00:40 PM,,PASS,

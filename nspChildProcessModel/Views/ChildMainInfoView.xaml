@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="nspChildProcessModel.ChildMainInfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             >
+    
+    <UserControl.Resources>
+        
+    </UserControl.Resources>
+    
+    <Grid>
+        <FlowDocumentScrollViewer x:Name="FlowDocScroll">
+            <FlowDocument x:Name="FlowDoc" FontFamily="Times New Roman">
+                <FlowDocument.Background>
+                    <ImageBrush ImageSource="Resources/cfpTheme.png" />
+                </FlowDocument.Background>
+
+
+                <Paragraph Foreground="Blue">
+                    <Bold>Checking Result:</Bold>
+                </Paragraph>
+                <Table x:Name="TableInfo" BorderBrush="Blue" BorderThickness="1">
+                    <!--All code move to Code behind-->
+                </Table>
+                <Paragraph Foreground="Blue">
+                    <Bold>Checking Info Detail:</Bold>
+                </Paragraph>
+                
+                <Table x:Name="TableDetail" BorderBrush="Black" BorderThickness="1">
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell Background="Transparent" BorderBrush="Blue" FontSize="20" FontWeight="Bold" ColumnSpan="1" BorderThickness="1">
+                                <Paragraph>Item</Paragraph>
+                            </TableCell>
+
+                            <TableCell Background="Transparent" BorderBrush="Blue" FontSize="20" FontWeight="Bold" ColumnSpan="6" BorderThickness="1">
+                                <Paragraph>Info</Paragraph>
+                            </TableCell>
+
+                            <TableCell Background="Transparent" BorderBrush="Blue" FontSize="20" FontWeight="Bold" ColumnSpan="4" BorderThickness="1">
+                                <Paragraph>Notes</Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+
+                <Paragraph>
+                    <TextBlock FontStyle="Italic"><Run Text="**************************************"/><LineBreak/><Run Text="Checker Frame Program - CFP"/><LineBreak/><Run Text="Copyright 2016 @ CVN - TL PED"/></TextBlock>
+                </Paragraph>
+
+                <Paragraph>
+                    <Image Width="150" Height="80" HorizontalAlignment="Left">
+                        <Image.Source >
+                            <BitmapImage
+                                UriSource="Resources/CFPLogo2.png" />
+                        </Image.Source>
+                    </Image>
+                </Paragraph>
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>        
+    </Grid>
+    
+</UserControl>

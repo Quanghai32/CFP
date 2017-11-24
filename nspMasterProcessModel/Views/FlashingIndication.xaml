@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="nspMasterProcessModel.Views.FlashingIndication"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             >
+    <Grid>
+        <DockPanel HorizontalAlignment="Stretch" LastChildFill="True">
+            <Label x:Name="FlashMasterMainLoop" DockPanel.Dock="Left" Content="{Binding clsBindingView.intMainLoopCycle}" FontSize="8" FontWeight="Bold" Foreground="WhiteSmoke" Background="{Binding clsBindingView.clrMainLoop}" Height="20" Width="35"></Label>
+            <Label x:Name="FlashMasterBackground" DockPanel.Dock="Left" Content="{Binding clsBindingView.intBackGroundCycle}" FontSize="8" FontWeight="Bold" Background="{Binding clsBindingView.clrBackGround}" Height="20" Width="35"></Label>
+            <Label x:Name="FlashUser" DockPanel.Dock="Right" Content="42" FontSize="8" FontWeight="Bold" Background="Yellow" Height="20" Width="35"></Label>
+        </DockPanel>
+    </Grid>
+</UserControl>

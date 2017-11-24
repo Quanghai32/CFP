@@ -1,0 +1,64 @@
+﻿<Window x:Class="nspNECWireless.windowWirelessSetting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NEC Wireless Setting" 
+        Loaded="Window_Loaded"
+        Height="400" Width="800">
+    <Grid>
+        <!--<Button x:Name="btnTest" Width="100" Height="100">TESTING</Button>-->
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Channel</Label>
+        <TextBox x:Name="tbChannel" Background="LightGreen" Height="30" Width="100" Margin="161,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Power</Label>
+        <TextBox x:Name="tbPower" Background="LightGreen" Height="30" Width="100" Margin="161,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RspBackoffCount</Label>
+        <TextBox x:Name="tbRspBackoffCount" Background="LightGreen" Height="30" Width="100" Margin="161,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RspBackOffMin</Label>
+        <TextBox x:Name="tbRspBackOffMin" Background="LightGreen" Height="30" Width="100" Margin="161,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RspBackOffMax</Label>
+        <TextBox x:Name="tbRspBackOffMax" Background="LightGreen" Height="30" Width="100" Margin="161,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RspEnable</Label>
+        <TextBox x:Name="tbRspEnable" Background="LightGreen" Height="30" Width="100" Margin="161,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RetryCount</Label>
+        <TextBox x:Name="tbRetryCount" Background="LightGreen" Height="30" Width="100" Margin="161,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="51,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RetryWait</Label>
+        <TextBox x:Name="tbRetryWait" Background="LightGreen" Height="30" Width="100" Margin="161,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+
+
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">BackOffCount</Label>
+        <TextBox x:Name="tbBackOffCount" Background="LightGreen" Height="30" Width="100" Margin="401,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">BackOffMin</Label>
+        <TextBox x:Name="tbBackOffMin" Background="LightGreen" Height="30" Width="100" Margin="401,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">BackOffMax</Label>
+        <TextBox x:Name="tbBackOffMax" Background="LightGreen" Height="30" Width="100" Margin="401,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Baud</Label>
+        <TextBox x:Name="tbBaud" Background="LightGreen" Height="30" Width="100" Margin="401,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">RcvTime</Label>
+        <TextBox x:Name="tbRcvTime" Background="LightGreen" Height="30" Width="100" Margin="401,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">SleepTime</Label>
+        <TextBox x:Name="tbSleepTime" Background="LightGreen" Height="30" Width="100" Margin="401,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Reserved1</Label>
+        <TextBox x:Name="tbReserved1" Background="LightGreen" Height="30" Width="100" Margin="401,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="291,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Reserved2</Label>
+        <TextBox x:Name="tbReserved2" Background="LightGreen" Height="30" Width="100" Margin="401,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+
+
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">CmdEnable</Label>
+        <TextBox x:Name="tbCmdEnable" Background="LightGreen" Height="30" Width="100" Margin="641,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">EDThreshold</Label>
+        <TextBox x:Name="tbEDThreshold" Background="LightGreen" Height="30" Width="100" Margin="641,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">SystemId</Label>
+        <TextBox x:Name="tbSystemId" Background="LightGreen" Height="30" Width="100" Margin="641,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">ProductId</Label>
+        <TextBox x:Name="tbProductId" Background="LightGreen" Height="30" Width="100" Margin="641,149,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">DeviceId</Label>
+        <TextBox x:Name="tbDeviceId" Background="LightGreen" Height="30" Width="100" Margin="641,189,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">FwId</Label>
+        <TextBox x:Name="tbFwId" Background="LightGreen" Height="30" Width="100" Margin="641,229,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Label Background="LightGreen" Height="30" Width="100" Margin="531,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">FwVer</Label>
+        <TextBox x:Name="tbFwVer" Background="LightGreen" Height="30" Width="100" Margin="641,269,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+
+        <Button x:Name="btnGetInfo" Background="LightCoral" FontWeight="Bold" Height="30" Width="100" Margin="531,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Get Info</Button>
+        <Button x:Name="btnApplySetting" Background="LightCoral" FontWeight="Bold" Height="30" Width="100" Margin="641,309,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Apply</Button>
+
+    </Grid>
+</Window>

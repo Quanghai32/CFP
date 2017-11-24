@@ -1,0 +1,9 @@
+﻿<Window x:Class="nspSpecMsgChart.Views.wdMsgForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="wdMsgForm" WindowStartupLocation="CenterScreen"
+        Height="300" SizeToContent="Width">
+    <Grid>
+        <TextBox x:Name="tbMsgContent" TextWrapping="Wrap" AcceptsReturn="True"  Background="LightGreen" Foreground="Black" FontWeight="Bold" FontSize="20"></TextBox>
+    </Grid>
+</Window>

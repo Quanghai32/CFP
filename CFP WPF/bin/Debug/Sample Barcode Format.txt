@@ -1,0 +1,14 @@
+
+*****************MT Format*****************
+Machine Code: ]C1910126T79321L92MT2113
+Product Serial: L92MT2113M
+*******************************************
+Machine code: 911367C06392AA21KJRX94331
+Serial code:  KJRX94331M
+Destination:  1367C063AA(CA GRAY)
+
+
+Machine code: 911367C00192AA21KJRX94331
+Serial code:  KJRX94331M
+Destination:  1367C001AA(JP BK)
+

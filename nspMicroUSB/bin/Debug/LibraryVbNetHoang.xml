@@ -1,0 +1,139 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LibraryVbNetHoang
+</name>
+</assembly>
+<members>
+<member name="F:LibraryVbNetHoang.ClsMcrUsb.DBT_DEVICEARRIVAL">
+	<remarks>
+ API declarations relating to device management (SetupDixxx and 
+ RegisterDeviceNotification functions).
+ Constants are from dbt.h and setupapi.h.
+</remarks>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.FindDeviceFromGuid(System.Guid,System.String[]@)">
+	<summary>
+ Use SetupDi API functions to retrieve the device path name of an
+ attached device that belongs to a device interface class.
+ </summary>
+	<param name="myGuid"> an interface class GUID. </param>
+	<param name="devicePathName"> a pointer to the device path name 
+ of an attached device. </param>
+	<returns>
+  True if a device is found, False if not. 
+ </returns>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.ReportIn.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+	<summary>
+ Each class that handles reading reports defines a Read method for reading 
+ a type of report. Read is declared as a Sub rather
+ than as a Function because asynchronous reads use a callback method 
+ that can access parameters passed by ByRef but not Function return values.
+ </summary>
+</member><member name="T:LibraryVbNetHoang.ClsMcrUsb.ReportIn">
+	<summary>
+ For reports the device sends to the host.
+ </summary>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.InputReportViaInterruptTransfer.CancelTransfer(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.IntPtr)">
+	<summary>
+ closes open handles to a device.
+ </summary>
+	<param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+	<param name="readHandle"> the handle for reading Input reports from the device. </param>
+	<param name="writeHandle"> the handle for writing Output reports to the device. </param>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.InputReportViaInterruptTransfer.PrepareForOverlappedTransfer(System.Threading.NativeOverlapped@,System.IntPtr@)">
+	<summary>
+ Creates an event object for the overlapped structure used with ReadFile. 
+ </summary>
+	<param name="hidOverlapped"> the overlapped structure </param>
+	<param name="eventObject"> the event object </param>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.InputReportViaInterruptTransfer.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+	<summary>
+ reads an Input report from the device using interrupt transfers.
+ </summary>
+	<param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+	<param name="readHandle"> the handle for reading Input reports from the device. </param>
+	<param name="writeHandle"> the handle for writing Output reports to the device. </param>
+	<param name="myDeviceDetected"> tells whether the device is currently attached. </param>
+	<param name="inputReportBuffer"> contains the requested report. </param>
+	<param name="success"> read success </param>
+</member><member name="T:LibraryVbNetHoang.ClsMcrUsb.InputReportViaInterruptTransfer">
+	<summary>
+ For reading Input reports.
+ </summary>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.ReportOut.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+	<summary>
+ Each class that handles writing reports defines a Write method for 
+ writing a type of report.
+ </summary>
+	<param name="reportBuffer"> contains the report ID and report data. </param>
+	<param name="deviceHandle"> handle to the device.  </param>
+	<returns>
+  True on success. False on failure.
+ </returns>
+</member><member name="T:LibraryVbNetHoang.ClsMcrUsb.ReportOut">
+	<summary>
+ For reports the host sends to the device.
+ </summary>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.OutputReportViaInterruptTransfer.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+	<summary>
+ writes an Output report to the device.
+ </summary>
+	<param name="outputReportBuffer"> contains the report ID and report data. </param>
+	<param name="writeHandle"> handle to the device.  </param>
+	<returns>
+  True on success. False on failure.
+ </returns>
+</member><member name="T:LibraryVbNetHoang.ClsMcrUsb.OutputReportViaInterruptTransfer">
+	<summary>
+ For Output reports the host sends to the device.
+ Uses interrupt or control transfers depending on the device and OS.
+ </summary>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.FlushQueue(Microsoft.Win32.SafeHandles.SafeFileHandle)">
+	<summary>
+ Remove any Input reports waiting in the buffer.
+ </summary>
+	<param name="hidHandle"> a handle to a device.   </param>
+	<returns>
+ True on success, False on failure.
+ </returns>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.GetDeviceCapabilities(Microsoft.Win32.SafeHandles.SafeFileHandle)">
+	<summary>
+ Retrieves a structure with information about a device's capabilities. 
+ </summary>
+	<param name="hidHandle"> a handle to a device. </param>
+	<returns>
+ An HIDP_CAPS structure.
+ </returns>
+</member><member name="M:LibraryVbNetHoang.ClsMcrUsb.GetHidUsage(LibraryVbNetHoang.ClsMcrUsb.HIDP_CAPS)">
+	<summary>
+ Creates a 32-bit Usage from the Usage Page and Usage ID. 
+ Determines whether the Usage is a system mouse or keyboard.
+ Can be modified to detect other Usages.
+ </summary>
+	<param name="MyCapabilities"> a HIDP_CAPS structure retrieved with HidP_GetCaps. </param>
+	<returns>
+ A string describing the Usage.
+ </returns>
+</member><member name="T:LibraryVbNetHoang.ClsMcrUsb.ReadInputReportDelegate">
+	<summary>
+ Define a class of delegates that point to the Hid.ReportIn.Read function.
+ The delegate has the same parameters as Hid.ReportIn.Read.
+ Used for asynchronous reads from the device.       
+ </summary>
+</member><member name="P:LibraryVbNetHoang.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LibraryVbNetHoang.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:LibraryVbNetHoang.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
